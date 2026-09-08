@@ -1,3 +1,1 @@
-# Treinamento
-# em
-# IA
+# Treinamento em IA
