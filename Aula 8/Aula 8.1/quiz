@@ -1,0 +1,61 @@
+QUIZ: Vinte perguntas!
+
+01 - O que é AutoML?
+01-Técnicas de ferramentas que automatizam partes do desenvolvimento de modelos de machine learning, ajudando a reduzir o tempo humano.
+
+02 - O que significa CASH?
+02-Busca automaticamente o melhor algoritmo e os melhores hiperparâmetros para um determinado problema de Machine Learning, sem precisar escolher tudo manualmente.
+
+03 - O que é seleção de algoritmos?
+03-Escolher automaticamente, entre vários algoritmos candidatos (árvore, Random Forest, SVM, etc.), o que tem melhor desempenho para o problema.
+
+04 - O que é otimização de hiperparâmetros?
+04-Ajustar automaticamente os hiperparâmetros do algoritmo (profundidade, número de árvores, taxa de aprendizado) para melhorar o desempenho.
+
+05 - O que é espaço de busca?
+05-Conjunto de algoritmos, hiperparâmetros e faixas de valores que o AutoML pode testar durante a busca.
+
+06 - O que é meta-learning?
+06-Aprender com tarefas anteriores.
+
+07 - O que são meta-features?
+07-Descrever um dataset com números.
+
+08 - O que é ensembling automático?
+08-Combinar automaticamente os melhores modelos encontrados na busca para obter um desempenho melhor que o de um único modelo.
+
+09 - Diferença entre voting e stacking?
+09-O voting combina as previsões de vários modelos e escolhe o resultado por votação. O stacking usa todos os exemplos sem vazamentos, custa k treinos por modelo-base.
+
+10 - O que é weighted ensemble?
+10-Soma dos pesos aprendidos na validação.
+
+11 - AutoML executa todas as etapas?
+11-Não, apenas partes do desenvolvimento de Machine Learning
+
+12 - Qual a função do orçamento?
+12-Limitar o tempo ou o número de tentativas da busca, controlando o custo computacional.
+
+13 - LazyPredict vs. AutoML abrangente?
+13-O LazyPredict treina vários modelos com configurações padrão e compara rapidamente. O AutoML abrangente também otimiza hiperparâmetros, pré-processamento e ensembles.
+
+14 - O que é leaderboard?
+14-Tabela que ranqueia os modelos testados pela métrica de validação.
+
+15 - O que é programação genética?
+15-Técnica que evolui pipelines de ML por seleção, cruzamento e mutação, inspirada na evolução biológica.
+
+16 - O que é Neural Architecture Search?
+16-Busca automática da melhor arquitetura de rede neural (camadas, neurônios e conexões).
+
+17 - Por que o teste fica independente?
+17-Porque a busca e a validação usam apenas o treino. O teste é separado e usado só no final para avaliar o modelo escolhido.
+
+18 - AutoML elimina vazamento?
+18-Não, o vazamento continua possível se o pré-processamento for feito antes da divisão ou se os dados já vierem contaminados.
+
+19 - Quando não utilizar AutoML?
+19-Quando há poucos recursos computacionais, quando é preciso interpretabilidade total ou quando é necessário controle fino do pipeline.
+
+20 - Por que os Módulos 6 e 7 importam?
+20-Porque o AutoML automatiza só parte do processo, e entender validação, vazamento e ensembles continua sendo responsabilidade humana.
