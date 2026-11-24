@@ -1,0 +1,5 @@
+Critério,Modelo
+Melhor ROC AUC,CatBoost
+Melhor F1,CatBoost
+Menor Log Loss,LightGBM
+Menor tempo entre Boosting,LightGBM
